@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CURDAngTestModelStoreContainer" CdmEntityContainer="CURDAngTestEntities2">
+    <EntitySetMapping Name="DeviceDetails">
+      <EntityTypeMapping TypeName="CURDAngTestModel.DeviceDetail">
+        <MappingFragment StoreEntitySet="DeviceDetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="OsType" ColumnName="OsType" />
+          <ScalarProperty Name="Battery" ColumnName="Battery" />
+          <ScalarProperty Name="AvailableMemory" ColumnName="AvailableMemory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
